@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import pandas as pd
 import joblib
@@ -86,4 +85,3 @@ if st.button("Prediksi Cluster"):
     data_scaled = scaler.transform(data)
     cluster = model.predict(data_scaled)[0]
     st.success(f"Influencer ini termasuk dalam **Cluster #{cluster}**")
->>>>>>> 76d952b0ce43ade4d49c024a458bebe31787d4f4
